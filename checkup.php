@@ -58,7 +58,7 @@ $data = "";
 $data .= '
 <div class="card my-2">
   <h4 class="card-header text-center">
-    Status Servidor - bithostel TI - São Paulo - Brasil
+    Status Servidor(VPS01SP01-BR) - bithostel TI - São Paulo - Brasil
   </h4>
   <div class="card-body pb-0">
 ';
