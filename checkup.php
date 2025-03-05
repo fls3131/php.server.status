@@ -229,8 +229,8 @@ $top_mem = "<pre class='mb-0 '><code>" . $top_mem . "</code></pre>";
 $top_cpu = implode('<br/>', $top_cpu_use );
 $top_cpu = "<pre class='mb-0 '><code>" . $top_cpu. "</code></pre>";
 
-$data1 .= "<tr><td>Average load</td><td><h5>". badge($avgs[1],'secondary'). ' ' .badge($avgs[2], 'secondary') . ' ' . badge( $avgs[3], 'secondary') . " </h5></td>\n";
-$data1 .= "<tr><td>Uptime</td><td>$uptime                     </td></tr>";
+$data1 .= "<tr><td>Média de Carga</td><td><h5>". badge($avgs[1],'secondary'). ' ' .badge($avgs[2], 'secondary') . ' ' . badge( $avgs[3], 'secondary') . " </h5></td>\n";
+$data1 .= "<tr><td>Tempo ON-LINE</td><td>$uptime                     </td></tr>";
 
 
 $disks = array();
@@ -243,9 +243,9 @@ $disks[] = array("name" => "local" , "path" => getcwd()) ;
 // $disks[] = array("name" => "Your disk name" , "path" => '/mount/point/to/that/disk') ;
 
 
-$data1 .= "<tr><td>Disk free        </td><td>" . get_disk_free_status($disks) . "</td></tr>";
+$data1 .= "<tr><td>Armazenamento        </td><td>" . get_disk_free_status($disks) . "</td></tr>";
 
-$data1 .= "<tr><td>RAM free        </td><td>". format_storage_info($total_mem *1024, $free_mem *1024, '') ."</td></tr>";
+$data1 .= "<tr><td>RAM disponível        </td><td>". format_storage_info($total_mem *1024, $free_mem *1024, '') ."</td></tr>";
 $data1 .= "<tr><td>Top RAM user    </td><td><small>$top_mem</small></td></tr>";
 $data1 .= "<tr><td>Top CPU user    </td><td><small>$top_cpu</small></td></tr>";
 
