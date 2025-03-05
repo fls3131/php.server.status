@@ -125,7 +125,7 @@ $data1 = "";
 $data1 .= '
 <div class="card mb-2">
   <h4 class="card-header text-center">
-    Server information
+    Informações sobre o servidor da bithostel TI 
   </h4>
   <div class="card-body">
 ';
