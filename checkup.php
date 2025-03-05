@@ -19,7 +19,7 @@ pre code {
 	</style>
 </head>
 <html><div class="container">
-	<img src="https://bithostel.com.br/logo.png" alt="Bithostel TI">
+	<img src="https://vps01.bithostel.com.br/logo.png" alt="Bithostel TI">
 <?php
 /*
 
