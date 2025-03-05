@@ -57,7 +57,7 @@ $data = "";
 $data .= '
 <div class="card my-2">
   <h4 class="card-header text-center">
-    Service status
+    Status de alguns serviços - bithostel TI - São Paulo - Brasil
   </h4>
   <div class="card-body pb-0">
 ';
@@ -81,7 +81,6 @@ $services[] = array("port" => "3306",     "service" => "MYSQL",                 
 // $services[] = array("port" => "3000",     "service" => "Mastodon web",                   "ip" => "") ;
 // $services[] = array("port" => "4000",     "service" => "Mastodon streaming",                   "ip" => "") ;
 $services[] = array("port" => "22",       "service" => "Open SSH",				"ip" => "") ;
-$services[] = array("port" => "3500",       "service" => "OpenVPN",				"ip" => "") ;
 //$services[] = array("port" => "58846",     "service" => "Deluge",             	"ip" => "") ;
 //$services[] = array("port" => "8112",     "service" => "Deluge Web",             	"ip" => "") ;
 $services[] = array("port" => "80",       "service" => "Internet Connection",     "ip" => "google.com") ;
