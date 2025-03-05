@@ -85,7 +85,7 @@ $services[] = array("port" => "22",       "service" => "Open SSH",				"ip" => ""
 //$services[] = array("port" => "58846",     "service" => "Deluge",             	"ip" => "") ;
 //$services[] = array("port" => "8112",     "service" => "Deluge Web",             	"ip" => "") ;
 $services[] = array("port" => "80",       "service" => "Internet Connection",     "ip" => "google.com") ;
-$services[] = array("port" => "80",       "service" => "Servidor de VPN",     "ip" => "127.0.0.1") ;
+$services[] = array("port" => "80",  => "Servidor de VPN",     "ip" => "127.0.0.1") ;
 //$services[] = array("port" => "8083",     "service" => "Vesta panel",             	"ip" => "") ;
 
 
