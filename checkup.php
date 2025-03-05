@@ -19,6 +19,7 @@ pre code {
 	</style>
 </head>
 <html><div class="container">
+	<img src="https://bithostel.com.br/logo.png" alt="Bithostel TI">
 <?php
 /*
 
@@ -245,7 +246,7 @@ $disks[] = array("name" => "local" , "path" => getcwd()) ;
 
 $data1 .= "<tr><td>Armazenamento        </td><td>" . get_disk_free_status($disks) . "</td></tr>";
 
-$data1 .= "<tr><td>RAM disponível        </td><td>". format_storage_info($total_mem *1024, $free_mem *1024, '') ."</td></tr>";
+$data1 .= "<tr><td>Memória RAM</td><td>". format_storage_info($total_mem *1024, $free_mem *1024, '') ."</td></tr>";
 $data1 .= "<tr><td>Top RAM user    </td><td><small>$top_mem</small></td></tr>";
 $data1 .= "<tr><td>Top CPU user    </td><td><small>$top_cpu</small></td></tr>";
 
