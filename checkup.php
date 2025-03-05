@@ -127,7 +127,7 @@ $data1 = "";
 $data1 .= '
 <div class="card mb-2">
   <h4 class="card-header text-center">
-    Informações sobre o servidor da bithostel TI 
+    Status VPS01SP01-BR servidor (bithostel TI )
   </h4>
   <div class="card-body">
 ';
