@@ -24,8 +24,8 @@ pre code {
   <div class="dropdown">
   <button class="dropbtn">Links</button>
   <div class="dropdown-content">
-    <a href="https://btihostel.com.br/VPN.html">Segurança digital</a>
-    <a href="https://btihostel.com.br">Website Principal</a>
+    <a href="https://bithostel.com.br/VPN.html">Segurança digital</a>
+    <a href="https://bithostel.com.br">Website Principal</a>
    </div>
 </div>
 <?php
