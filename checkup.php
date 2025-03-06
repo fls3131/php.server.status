@@ -22,11 +22,11 @@ pre code {
 	<img src="https://vps01.bithostel.com.br/logo.png" alt="Bithostel TI">
   <!-- Navigation Bar -->
   <div class="dropdown">
-  <button class="dropbtn">Links</button>
+  <br><button class="dropbtn">Links</button>
   <div class="dropdown-content">
+    <a href="https://bithostel.com.br">Website Principal</a> - 
     <a href="https://bithostel.com.br/VPN.html">Segurança digital</a>
-    <a href="https://bithostel.com.br">Website Principal</a>
-   </div>
+  </div>
 </div>
 <?php
 /*
