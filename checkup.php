@@ -19,13 +19,14 @@ pre code {
 	</style>
 </head>
 <html><div class="container">
-	<img src="https://vps01.bithostel.com.br/logo.png" alt="Bithostel TI">
+	<div align="center"><img src="https://vps01.bithostel.com.br/logo.png" alt="Bithostel TI">
   <!-- Navigation Bar -->
   <div class="dropdown">
   <br><button class="dropbtn">Links</button>
   <div class="dropdown-content">
     <a href="https://bithostel.com.br">Website Principal</a> - 
     <a href="https://bithostel.com.br/VPN.html">Segurança digital</a>
+  </div>
   </div>
 </div>
 <?php
